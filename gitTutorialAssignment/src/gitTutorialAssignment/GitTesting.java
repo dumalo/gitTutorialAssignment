@@ -12,4 +12,10 @@ public class GitTesting {
 		return a+b;
 	}
 
+	ublic int multiply (int a, int b) {
+		return a+b;
+	}
+
+
+
 }
