@@ -6,9 +6,11 @@ public class GitTesting {
 		// TODO Auto-generated method stub
 		System.out.println("Test");
 
+		GitTesting.addition();
+		GitTesting.subtraction();
 	}
 	
-	public int addition (int a, int b) {
+	public static int addition (int a, int b) {
 		return a+b;
 	}
 	public int division (int a, int b) {
@@ -22,4 +24,8 @@ public class GitTesting {
 
 
 
+	public static int subtraction (int a, int b) {
+		return a-b;
+	}
 }
+
