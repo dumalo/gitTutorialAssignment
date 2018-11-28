@@ -16,6 +16,9 @@ public class GitTesting {
 
 		int resMul = multiply(2, 5);
 		System.out.println("Multiply Result:" + resMul);
+
+		int resSquare = square(2);
+		System.out.println("Square Result" + resSquare)
 	}
 
 	public static int addition(int a, int b) {
@@ -32,5 +35,8 @@ public class GitTesting {
 
 	public static int subtraction(int a, int b) {
 		return a - b;
+	}
+	public static int square(int a){
+		return a*a;
 	}
 }
