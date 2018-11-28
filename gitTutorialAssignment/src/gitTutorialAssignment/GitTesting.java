@@ -19,6 +19,9 @@ public class GitTesting {
 		
 		int max = maxed(2,5);
 		System.out.println("Max of the two nums is:"+max);
+
+		int resSquare = square(2);
+		System.out.println("Square:"+resSquare)
 	}
 
 	private static int maxed(int i, int j) {
@@ -42,5 +45,8 @@ public class GitTesting {
 
 	public static int subtraction(int a, int b) {
 		return a - b;
+	}
+	public static int square(int a){
+		return a*a;
 	}
 }
