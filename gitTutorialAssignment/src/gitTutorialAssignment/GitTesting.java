@@ -16,6 +16,16 @@ public class GitTesting {
 
 		int resMul = multiply(2, 5);
 		System.out.println("Multiply Result:" + resMul);
+		
+		int max = maxed(2,5);
+		System.out.println("Max of the two nums is:"+max);
+	}
+
+	private static int maxed(int i, int j) {
+		if(i>j)
+			return i;
+		else 
+			return j;
 	}
 
 	public static int addition(int a, int b) {
